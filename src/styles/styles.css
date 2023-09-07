@@ -1,0 +1,35 @@
+.growthX-paste-name-button {
+    margin-right: 12px;
+    margin-left: 12px;
+    border: 0;
+    font-weight: 700;
+    background-color: rgb(29, 155, 240);
+    border-radius:5px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: inherit;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.growthX-paste-name-button:hover {
+    background-color: rgb(26, 140, 216);
+}
+
+.growthX-paste-name-button:active {
+    position:relative;
+    top:1px;
+}
+
+.growthX-paste-name-button-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.growthX-paste-name-button-icon:hover {
+    opacity: 0.7;
+}
