@@ -1,0 +1,26 @@
+body {
+    width: 300px;
+    text-align: center;
+    background-color: #f1efef;
+}
+
+h1 {
+    color: #303030;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+p {
+    color: #303030;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #987e14;
+}
