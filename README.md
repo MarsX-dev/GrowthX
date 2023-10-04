@@ -1,7 +1,7 @@
 # NameInserter
 A Chrome extension for X (ex. Twitter) power users.
 
-GrowthX adds their name as you reply on X.com. Simple and useful.
+NameInserter adds their name as you reply on X.com. Simple and useful.
 
 
 Why put names?
