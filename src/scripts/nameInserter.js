@@ -5,14 +5,14 @@
     const INTERVAL_TIME = 100; //ms
 
     const GROWTH_X_PASTE_NAME_BUTTON_CLASS = {
-        FULL: "growthX-paste-name-button",
-        SHORT: "growthX-paste-name-button-icon",
+        FULL: "nameInserter-paste-name-button",
+        SHORT: "nameInserter-paste-name-button-icon",
     };
 
     const GROWTH_X_PASTE_NAME_BUTTON_ID = {
-        FULL_TWEET: "growthX-paste-name-button_tweet_id",
-        FULL_MODAL: "growthX-paste-name-button_modal_id",
-        SHORT: "growthX-paste-name-button-icon_id",
+        FULL_TWEET: "nameInserter-paste-name-button_tweet_id",
+        FULL_MODAL: "nameInserter-paste-name-button_modal_id",
+        SHORT: "nameInserter-paste-name-button-icon_id",
     };
 
     const TWEET_REPLY_BUTTON_TEST_ID = {
@@ -127,7 +127,7 @@
 
     function createShortPasteNameButton() {
         const pasteNameButton = document.createElement("img");
-        pasteNameButton.src = chrome.runtime.getURL('./img/growth_x_logo_square_128x128_padding.png');
+        pasteNameButton.src = chrome.runtime.getURL('./img/nameInserter_logo_square_128x128_padding.png');
         pasteNameButton.classList.add(GROWTH_X_PASTE_NAME_BUTTON_CLASS.SHORT);
         pasteNameButton.setAttribute("id", GROWTH_X_PASTE_NAME_BUTTON_ID.SHORT);
         pasteNameButton.addEventListener("click", pasteNameShortButton);
@@ -157,6 +157,7 @@
             }, INTERVAL_TIME)
         }
     }
+
     function observerUrlChange() {
         let previousUrl = window.location.href;
         const observer = new MutationObserver(function () {
