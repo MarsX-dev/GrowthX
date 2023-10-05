@@ -1,1 +1,1 @@
-chrome.runtime.setUninstallURL('https://growthx.unicornplatform.page/bye/');
+chrome.runtime.setUninstallURL('https://name-inserter.unicornplatform.page/bye/');
