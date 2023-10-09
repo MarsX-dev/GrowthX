@@ -90,12 +90,12 @@
 
     function pasteNameFullButton() {
         const tweetTextarea = document.querySelector(TWITTER_SELECTOR.TEST_ID_TWEET_TEXTAREA);
-        pasteName(`${getFirstName()} `, tweetTextarea);
+        pasteName(`${getFirstName()}`, tweetTextarea);
     }
 
     function pasteNameShortButton() {
         const dmTextInput = document.querySelector(TWITTER_SELECTOR.TEST_ID_DM_COMPOSER_TEXT_INPUT);
-        pasteName(`${getFirstName()} `, dmTextInput);
+        pasteName(`${getFirstName()}`, dmTextInput);
     }
 
     function pasteName(name, destination) {
